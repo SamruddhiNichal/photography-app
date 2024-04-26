@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-NWNkx+4lJNQiZtyjzY78mJG7TElS7ukWtfs0AuyCMpZqNEbifJStwcImdZTJMn9N8/NDI+UEln0kGy9AHeS5Cg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="hero-section">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light fw-bold  sticky-top ">
+            <div class="container">
+                <a class="navbar-brand  sticky-top fw-bold" href="#"><img class="bg-tranparent" src="./360_F_270099822_9zbx236dHn1hyxYNl9HSOBvpUEpU0eOz.jpg" width="80">Nature Photography</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div id="carouselExampleCaptions" class="carousel slide position-relative">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="height:700px;">
+                  <div class="carousel-item active position-relative">
+                    <img src="./7-78564_m.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover; height: 100%;">
+                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                      <h2 class="fw-bold text-center">Welcome to my Photography Page</h2>
+                      <p>The camera sees more than the eye, so why not make use of it?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item position-relative">
+                    <img src="./hd-background-z8p4omsfml858kmr.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover; height: 100%;">
+                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                        <h2 class="fw-bold">Welcome to my Photography Page</h2>
+                      <p>“The best thing about a picture is that it never changes, even when the people in it do.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item position-relative">
+                    <img src="./36-367741_download-source-natural-beauty-natural-background-hd.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover; height: 100%;">
+                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                        <h2 class="fw-bold">Welcome to my Photography Page</h2>
+                     <p>What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+           
+        </section>
+        
+        
+        
+
+<!-- Grid Photo Gallery -->
+<section class="photo-gallery pb-4 pt-5">
+    <div class="container">
+        <h2 class="section-title text-center pb-4">Photo Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="./images.jpeg" alt="Gallery Image 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./photo-1533450718592-29d45635f0a9.avif" alt="Gallery Image 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./pngtree-lotus-flower-jpg-pink-lotus-flower-image_13023952.jpg" alt="Gallery Image 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="./premium_photo-1666863911660-d64fc1022c12.avif" alt="Gallery Image 4" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="./convert_to_jpg.png" alt="Gallery Image 5" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="./media_13dd2e08ba5c251123874919fb8c2a70d003d7249.jpeg" alt="Gallery Image 6" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="gallery-item">
+                    <img src="./HD-wallpaper-background-abstract-1-jpg-design-colors-blue.jpg" alt="Gallery Image 7" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="gallery-item">
+                    <img src="./desktop-wallpaper-new-nature-nature-computer.jpg" alt="Gallery Image 7" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-12 mb-4">
+                <div class="gallery-item">
+                    <img src="./Sample-jpg-image-500kb.jpg" alt="Gallery Image 8" class="img-fluid" width="700">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div class="row">
+            <div class="col-md-6 pt-10">
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-item">
+                                <p class="testimonial-text text-black text-uppercase">"We were looking for an affordable marketing company and Silver Tongue Media more than delivered. They manage our blog and social media accounts and produce our brochures. We saw an immediate increase in our social media presence and our followers doubled in a month and our garage business has increased 50% in two months! They took the time to understand who we are as a company and gave us a few amazing marketing plans to choose from. We wholeheartedly recommend Silver Tongue to everyone we know"</p>
+                                <p class="testimonial-autho fw-bold"> Julian Buchanan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./tiger-jpg.jpg" class="d-block w-100" alt="Testimonial Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./MainAfter.webp" class="d-block w-100" alt="Testimonial Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./983794168.jpg" class="d-block w-100" alt="Testimonial Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-5 pb-5 col-md-12">
+    <h6 class="text-center">
+        Photography takes an instant out of time, altering life by holding it still.”
+         “There are always two people in every picture: the photographer and the viewer.” 
+         “Photography helps people to see.” “What I like about photographs is that they capture a moment that's gone forever,
+         impossible to reproduce
+    </h6>
+    <button class="btn btn-secondary d-grid gap-2 col-2 mx-auto">Read More</button>
+</section>
+<section class="pt-5 pb-5 col-md-12">
+    <div id="imageCarousel1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./painting-mountain-lake-with-mountain-background_188544-9126.avif" class="d-block w-100" style="max-height: 500px;" alt="Testimonial Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./mountain-landscape-2031539_640.jpg" class="d-block w-100" style="max-height:500px;" alt="Testimonial Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.avif" class="d-block w-100" style="max-height: 500px;" alt="Testimonial Image 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section class="pt-5 col-md-12">
+    <div class="container">
+        <h2>Family Friends</h2>
+        <div class="row">
+            <div class="col-md-6 pt-10">
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-item">
+                                <p class="testimonial-text text-black text-uppercase">"Helen Bartlett is an outstanding artist and the premier family photographer in London. Her work is both surprising and timeless. Over the years we have had the pleasure of spending several mornings with her and the images she captures have a spontaneous quality that often eludes other photographers. Helen is one of the sweetest people we have ever met, a quality that translates into an empathetic relationship with our children who are happy to spend hours being photographed by her.
+
+                                    Every photo book we have as a result of our mornings with Helen are a cherished memento of our growing family and we are grateful to have them. The books are of outstanding quality and can easily withstand a child handling them over and over and even after five years they still look as new. We couldn’t recommend Helen more."</p>
+                                <p class="testimonial-autho fw-bold"> Julian Buchanan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./family-photography-reviews-001-768x512.webp" class="d-block w-100" alt="Testimonial Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./family-photography-reviews-006-768x512.webp" class="d-block w-100" alt="Testimonial Image 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-5 col-md-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel-image">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./family-photo-growing-up-020-768x512.webp" class="d-block w-100" alt="Testimonial Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./family-photography-reviews-024-768x512.webp" class="d-block w-100" alt="Testimonial Image 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel-testimonial">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-item">
+                                <p class="testimonial-text text-black text-uppercase">Helen has photographed our family on a number of occasions, and the experience has always been fantastic. Not only is the time that she spends with us very enjoyable, it is also a very relaxed experience as Helen manages to take phenomenal photos of you and your family in your everyday environment. Therefore, the photos always look very natural and relaxed.
+
+                                    I still don’t know how Helen manages to capture such great photos with such ease and aplomb, but she does it every time and our friends always comment on how great they are. I would recommend Helen to anyone.
+                                    
+                                    – Agnes memento of our growing family and we are grateful to have them. The books are of outstanding quality and can easily withstand a child handling them over and over and even after five years they still look as new. We couldn’t recommend Helen more."</p>
+                                <p class="testimonial-autho fw-bold"> – Agnes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer mt-auto py-5 pt-5 pb-5 col-md-12 bg-light">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Contact Us</h3>
+                <p>Phone: +1234567890</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.instagram.com/your-instagram-page"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.facebook.com/your-facebook-page"><i class="fab fa-facebook"></i> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

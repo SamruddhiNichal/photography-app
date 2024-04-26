@@ -1,0 +1,75 @@
+// Define variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+
+// Hero Section
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.hero-image img:first-child {
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.controls button:focus {
+    outline: none;
+}
+    
+
+
+
+.photo-gallery {
+    padding: 50px 0;
+    .section-title {
+        text-align: center;
+    }
+    .gallery-item {
+        margin-bottom: 30px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+
